@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Jokes</title>
+        <link rel="stylesheet" href="styles/styles.css">
+        <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+        <script src="scripts/render.js"></script>
+        <script src="scripts/utils.js"></script>
+        
+    </head>
+    <body>
+        <div id="header">
+            <h1><center>Jokes</center></h1>
+        </div>
+        <div id="body">
+            <div id="aside">
+                <div id="aside_header">
+                    <div id="add">
+                        <button class="full_but">+</button>
+                    </div>
+                    <div id="title">
+                        <h3><center>Жанры</center></h3>
+                    </div>
+                    <div id="remove">
+                        <button class="full_but">-</button>
+                    </div>
+                </div>
+                <div id="aside_body">
+
+                </div>
+            </div>
+            <div id="main">
+                <div id="menu">
+                    <div id="all_jokes">
+                        <button id="all_jokes_but" class="full_but pressed">Все шутки</button>
+                    </div>
+                    <div id="fav_jokes">
+                        <button id="fav_jokes_but" class="full_but">Избранные шутки</button>
+                    </div>
+                    <div id="history">
+                        <button id="history_but" class="full_but">История</button>
+                    </div>
+                </div>
+                <div id="render">
+
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
